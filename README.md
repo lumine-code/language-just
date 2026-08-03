@@ -10,6 +10,10 @@ Just language support.
 - **Folding**: folds recipe bodies.
 - **Symbol navigation**: recipe names and assignments.
 
+## Installation
+
+To install `language-just` search for _language-just_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-just`.
+
 ## Services
 
 - **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs in these files as clickable links.
