@@ -1,7 +1,7 @@
 {
   "name": "Just",
   "scopeName": "source.just",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-just",
   "injectionRegex": "^(just)$",
   "fileTypes": ["just", "justfile", "Justfile", ".justfile"],
