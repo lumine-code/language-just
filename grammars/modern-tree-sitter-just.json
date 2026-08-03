@@ -1,0 +1,23 @@
+{
+  "name": "Just",
+  "scopeName": "source.just",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-just",
+  "injectionRegex": "^(just)$",
+  "fileTypes": ["just", "justfile", "Justfile", ".justfile"],
+  "comments": {
+    "start": "# "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:IndianBoy42/tree-sitter-just#v0.2.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-just/tree-sitter-just.wasm",
+    "localsQuery": "tree-sitter-just/locals.scm",
+    "highlightsQuery": "tree-sitter-just/highlights.scm",
+    "foldsQuery": "tree-sitter-just/folds.scm",
+    "tagsQuery": "tree-sitter-just/tags.scm"
+  }
+}
