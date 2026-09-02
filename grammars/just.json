@@ -3,7 +3,7 @@
   "scopeName": "source.just",
   "type": "tree-sitter",
   "parser": "tree-sitter-just",
-  "injectionRegex": "^(just)$",
+  "injectionNames": ["just"],
   "fileTypes": ["just", "justfile", "Justfile", ".justfile"],
   "comments": {
     "start": "# "
@@ -14,10 +14,10 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:IndianBoy42/tree-sitter-just#v0.2.0",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-just/tree-sitter-just.wasm",
-    "localsQuery": "tree-sitter-just/locals.scm",
-    "highlightsQuery": "tree-sitter-just/highlights.scm",
-    "foldsQuery": "tree-sitter-just/folds.scm",
-    "tagsQuery": "tree-sitter-just/tags.scm"
+    "grammar": "just.wasm",
+    "localsQuery": "just-locals.scm",
+    "highlightsQuery": "just-highlights.scm",
+    "foldsQuery": "just-folds.scm",
+    "tagsQuery": "just-tags.scm"
   }
 }
