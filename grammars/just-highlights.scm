@@ -107,9 +107,11 @@
 
 ; Comments
 
-(comment) @_IGNORE_.spell @comment.line.just
+((comment) @_IGNORE_.spell @comment.line.just
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
-(shebang) @keyword.control.directive.just
+((shebang) @keyword.control.directive.just
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
 ; highlight known settings (filtering does not always work)
 (setting
