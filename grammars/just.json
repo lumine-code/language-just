@@ -3,7 +3,7 @@
   "scopeName": "source.just",
   "type": "tree-sitter",
   "parser": "tree-sitter-just",
-  "injectionNames": ["just"],
+  "injectionNames": ["just", "justfile"],
   "fileTypes": ["just", "justfile", "Justfile", ".justfile"],
   "comments": {
     "start": "# "
