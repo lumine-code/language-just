@@ -17,6 +17,7 @@
     "grammar": "just.wasm",
     "localsQuery": "just-locals.scm",
     "highlightsQuery": "just-highlights.scm",
+    "injectionsQuery": "just-injections.scm",
     "foldsQuery": "just-folds.scm",
     "tagsQuery": "just-tags.scm"
   }
