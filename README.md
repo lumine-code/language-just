@@ -10,6 +10,8 @@ Just language support.
 - **Folding**: folds recipe bodies.
 - **Symbol navigation**: recipe names and assignments.
 
+![Just syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-just` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-just`.

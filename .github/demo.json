@@ -1,0 +1,16 @@
+{
+  "title": "language-just",
+  "description": "Just syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "60b7b4edfe7f2d5609ebde414feb9b2043694324",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Just syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
