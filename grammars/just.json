@@ -19,6 +19,7 @@
     "highlightsQuery": "just-highlights.scm",
     "injectionsQuery": "just-injections.scm",
     "foldsQuery": "just-folds.scm",
+    "tagsQuerySupportsLocalPath": true,
     "tagsQuery": "just-tags.scm"
   }
 }
